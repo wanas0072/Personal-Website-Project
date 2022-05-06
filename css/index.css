@@ -72,7 +72,7 @@ footer{
     flex: 1 100%;
     color: whitesmoke;
 }
-
+/* เปลี่ยนขนาดตัวอักษรในส่วนเนื้อหาเมื่อขนาดหน้าจอน้อยกว่า 1000 พิกเซล */
 @media screen and (max-width: 1000px){
     h2:nth-child(1){
         font-size: 2.5em;
@@ -87,7 +87,8 @@ footer{
         font-size: 1.5em;
     } 
 }
-
+/* เปลี่ยนขนาดตัวอักษรใน Header , Nav และเนื้อหา
+    เมื่อขนาดหน้าจอน้อยกว่า 700 พิกเซล */
 @media screen and (max-width: 700px){
     header{
         flex: 1 100%;

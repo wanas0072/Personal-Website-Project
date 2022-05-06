@@ -95,7 +95,7 @@ article{
     'main1 main2 main3'
     'footer footer footer';
 }
-
+/* เปลี่ยนขนาดรูปภาพและการจัดวางเนื้อหาเมื่อขนาดหน้าจอน้อยกว่า 1000 พิกเซล */
 @media screen and (max-width: 1000px){
     .picMe{
         text-align: center;
@@ -107,16 +107,18 @@ article{
     }
     article{
         display: grid;
-    background-color: #F3E9DD;
-    gap: 5px;
-    margin: 0px 0px;
-    grid-template-areas:
-    'main1 main2'
-    'main3 main3'
-    'footer footer';
+        background-color: #F3E9DD;
+        gap: 5px;
+        margin: 0px 0px;
+        grid-template-areas:
+        'main1 main2'
+        'main3 main3'
+        'footer footer';
     }
 }
-
+/* เปลี่ยนขนาดตัวอักษรใน Header และ Nav 
+    เปลี่ยนขนาดและจัดรูปภาพกึ่งกลาง
+    และการจัดวางเนื้อหาเมื่อขนาดหน้าจอน้อยกว่า 700 พิกเซล */
 @media screen and (max-width: 700px){
     header{
         flex: 1 100%;
